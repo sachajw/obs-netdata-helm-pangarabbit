@@ -328,7 +328,7 @@ spec:
                 [health]
                   enabled = no
                 [ml]
-                  enabled = yes
+                  enabled = no
             stream:
               enabled: true
               path: /etc/netdata/stream.conf
@@ -469,7 +469,7 @@ spec:
                 [health]
                   enabled = no
                 [ml]
-                  enabled = yes
+                  enabled = no
                 [plugins]
                   timex = no
                   checks = no
