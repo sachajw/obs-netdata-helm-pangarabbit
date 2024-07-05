@@ -1,0 +1,3 @@
+setup:
+  - project: obs-netdata
+    config: dev
