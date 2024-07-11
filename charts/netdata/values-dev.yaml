@@ -233,7 +233,7 @@ valuesObject:
     claiming:
       enabled: true
       token: "${NETDATA_PARENT_API_KEY}"
-      rooms: "8cdb36d1-3343-4832-8ac6-a3a8297fe826"
+      rooms: "${NETDATA_CHILD_ROOM}"
       url: "https://api.netdata.cloud"
 
     extraVolumeMounts: []
